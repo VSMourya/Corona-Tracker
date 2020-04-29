@@ -1,0 +1,65 @@
+.container{
+    margin: 20px 0;
+    margin-bottom: 70px;
+}
+
+.card{
+    margin: 2 !important;
+    min-width: fit-content ;
+}
+
+.infected{
+    border-bottom: 10px solid rgba(34, 34, 34, 0.5);
+    background-color: rgb(241, 241, 241) !important;
+    border-radius: 13px !important;
+}
+
+
+.recovered{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.3);
+    background-color: rgba(0, 255, 0,0.17) !important;
+    border-radius: 13px !important;
+}
+
+
+.deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 0.3);
+    background-color: rgba(255, 0, 0,0.17) !important;
+    border-radius: 13px !important;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .card {
+      margin: 2% 0 !important;
+      border-radius: 10px !important;
+    }
+
+    .infected {
+        margin: 2% 0 !important;
+        border-radius: 20px !important;
+      }
+
+    .recovered {
+        margin: 2% 0 !important;
+        background-color: rgba(0, 255, 0,0.17) !important;
+        border-radius: 20px !important;
+    }
+
+    .deaths {
+        margin: 2% 0 !important;
+        background-color: rgba(255, 0, 0,0.17) !important;
+        border-radius: 20px !important;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
